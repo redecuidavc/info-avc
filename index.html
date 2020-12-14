@@ -1,15 +1,50 @@
+<!-- http://www.andrefelizardo.com.br/blog/criando-pagina-com-rolagem-por-secao-html-css-jquery/ -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>.: André Felizardo - Página com Seção :.</title>
+    <title>.: Rede CuidAVC :.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="main.css" rel="stylesheet" />
   </head>
+
   <body>
+    
     <div id="secao-01" class="secao">
+  
+      <div class="row">
+        <div class="col-md-3 col-xs-6 divTableCell">
+          <div class="container">
+            <object type="image/svg+xml" data="imagens/sintoma1.svg"></object>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6 divTableCell">
+          <div class="container">
+            <object type="image/svg+xml" data="imagens/sintoma2.svg"></object>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6 divTableCell">
+          <div class="container">
+            <object type="image/svg+xml" data="imagens/sintoma3.svg"></object>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6 divTableCell">
+          <div class="container">
+            <object type="image/svg+xml" data="imagens/sintoma4.svg"></object>
+          </div>
+        </div>
+      </div>
+
       <span class="icone-scroll">
         <span class="scroll-next scroll"></span>
       </span>
+
     </div>
+
     <div id="secao-02" class="secao">
       <span class="icone-scroll">
         <span class="scroll-next scroll"></span>
@@ -27,58 +62,7 @@
       </span>
     </div>
   </body>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-    .secao {
-      position: relative;
-    }
-    #secao-01 {
-      background-color: #0B77C5;
-    }
-    #secao-02 {
-      background-color: #fff;
-    }
-    #secao-03 {
-      background-color: #000;
-    }
-    #secao-04 {
-      background-color: #ccc;
-    }
-    .icone-scroll {
-      position: absolute;
-      bottom: 3em;
-      width: 50px;
-      height: 50px;
-      background-color: #1a1a1a;
-      border-radius: 50%;
-      left: 50%;
-      margin-left: -25px;
-      cursor: pointer;
-    }
-    .scroll {
-      width: 15px;
-      height: 15px;
-      border-right: 2px solid #fff;
-      border-bottom: 2px solid #fff;
-      display: inline-block;
-      position: relative;
-    }
-    .scroll-next {
-      transform: rotate(45deg);
-      margin: 14px 0 0 16.5px;
-    }
-    .scroll-top {
-      transform: rotate(225deg);
-      margin: 19px 0 0 17px;
-    }
-    .scroll-top + .scroll-top {
-      top: -15px;
-      margin-top: 0;
-    }
-  </style>
+
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script>
       var _AlturaDocumento = $(window).height(); //pega altura da janela
