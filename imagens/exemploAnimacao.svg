@@ -1,56 +1,10 @@
-<!-- http://www.andrefelizardo.com.br/blog/criando-pagina-com-rolagem-por-secao-html-css-jquery/ -->
-
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>.: Rede CuidAVC :.</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="main.css" rel="stylesheet" />
-  </head>
-
-  <body>
-
-    <!-- <div class="figure"></div> -->
-    
-    <div id="secao-01" class="secao">
-  
-      <div class="row">
-        <div class="col-md-3 col-xs-6 divTableCell">
-          <div class="container">
-            <object type="image/svg+xml" data="imagens/sintoma1.svg"></object>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-xs-6 divTableCell">
-          <div class="container">
-            <object type="image/svg+xml" data="imagens/sintoma2.svg"></object>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-xs-6 divTableCell">
-          <div class="container">
-            <object type="image/svg+xml" data="imagens/sintoma3.svg"></object>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-xs-6 divTableCell">
-          <div class="container">
-             <!-- <object type="image/svg+xml" data="imagens/exemploAnimacao.svg"></object> -->
-
 <svg id="sintoma1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
      viewBox="0 0 224.020000 224.020000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
 
 <style>
 <![CDATA[
 #sintoma1-path12_ts {
-    animation-name: sintoma1-path12_ts__ts;
-    animation-duration: 3000ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; 
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
+    animation: sintoma1-path12_ts__ts 3000ms linear infinite normal forwards 
 }
 @keyframes sintoma1-path12_ts__ts { 
     0% {transform: translate(170.059998px,138.371780px) scale(1,1)} 
@@ -58,13 +12,7 @@
     100% {transform: translate(170.059998px,138.371780px) scale(1,1)} 
 }
 #sintoma1-circle1 {
-    animation-name: sintoma1-circle1__rd;
-    animation-duration: 3000ms;
-    animation-timing-function: linear ;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: paused; 
+    animation: sintoma1-circle1__rd 3000ms linear infinite normal forwards 
 }
 @keyframes sintoma1-circle1__rd { 
     0% {r: 11.250000px} 
@@ -72,22 +20,6 @@
 }
 ]]>
 </style>
-
-<script>
-  function iniciaOlho() {
-    $("#playOlho").hide();
-    $("#stopOlho").show();
-    $("#sintoma1-path12_ts").css("animation-play-state", "running");
-    $("#sintoma1-circle1").css("animation-play-state", "running");
-  }
-
-  function paraOlho() {
-    $("#playOlho").show();
-    $("#stopOlho").hide();
-    $("#sintoma1-path12_ts").css("animation-play-state", "paused");
-    $("#sintoma1-circle1").css("animation-play-state", "paused");
-  }
-</script>
 
 <g id="sintoma1-layer-2">
     <g id="sintoma1-layer-1">
@@ -112,68 +44,3 @@
         </g>
     </g>
 </g></svg>
-
-<button id="playOlho" onclick="iniciaOlho()">Play</button>
-<button id="stopOlho" onclick="paraOlho()" hidden>Stop</button>
-          </div>
-        </div>
-      </div>
-
-      <span class="icone-scroll">
-        <span class="scroll-next scroll"></span>
-      </span>
-
-    </div>
-
-    <div id="secao-02" class="secao">
-      <span class="icone-scroll">
-        <span class="scroll-next scroll"></span>
-      </span>
-    </div>
-    <div id="secao-03" class="secao">
-      <span class="icone-scroll">
-        <span class="scroll-next scroll"></span>
-      </span>
-    </div>
-    <div id="secao-04" class="secao">
-      <span class="icone-scroll">
-        <span class="scroll-top scroll"></span>
-        <span class="scroll-top scroll"></span>
-      </span>
-    </div>
-
-    
-
-  </body>
-
-  <script src="scripts/jquery-3.1.1.min.js"></script>
-  <script>
-  var _AlturaDocumento = $(window).height(); //pega altura da janela
-
-function AlturaSecao() {
-    $('.secao').height(_AlturaDocumento); //atribui o valor da variável a todas as divs com a classe secao
-}
-
-function ScrollSecao() {
-    console.log('entrou');
-    var body = $('html, body');
-    if ($(this).parent('.secao').is('#secao-01')) {
-        //verifica se está na primeira seção e rola para a segunda
-        body.animate({ scrollTop: _AlturaDocumento }, '500');
-    } else if ($(this).parent('.secao').is('#secao-02')) {
-        //verifica se está na segunda seção e rola para a terceira
-        body.animate({ scrollTop: _AlturaDocumento * 2 }, '500');
-    } else if ($(this).parent('.secao').is('#secao-03')) {
-        //verifica se está na terceira seção e rola para a quarta
-        body.animate({ scrollTop: _AlturaDocumento * 3 }, '500');
-    } else {
-        //rola para o início da página
-        body.animate({ scrollTop: 0 }, '800');
-    }
-}
-
-$('.icone-scroll').click(ScrollSecao); //chama a função na ação de click no ícone
-
-$(AlturaSecao); //chama a nossa função só depois que o documento estiver completamente carregado  
-  </script>
-</html>

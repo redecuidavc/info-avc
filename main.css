@@ -82,3 +82,25 @@ body {
     width: 100%;
   }
 }
+
+
+
+
+.figure {
+  background: url("imagens/sprite.svg") no-repeat;
+  width: 220px;
+  height: 266px;
+  transform: translate3D(224px, 224px, 0);
+  animation: walk 0.78s steps(4) infinite;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+@keyframes walk {
+  100% { background-position: 0 -2376px; }
+}
+
+@media screen and ( max-width: 600px ) {
+  .figure { transform: translate3D(40%, 50px, 0); }
+}
