@@ -8,7 +8,7 @@ body {
 }
 
 #secao-01 {
-  background-color: #0b77c5;
+  background-color: #05052D;
 }
 
 #secao-02 {
@@ -59,13 +59,24 @@ body {
   margin-top: 0;
 }
 
+@font-face {
+  font-family: caviar-dream;
+  src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+.texto {
+  font-family: caviar-dream;
+}
+
 .container {
   width: 100%;
   height: 50%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  
   /*position: relative;*/
 }
 
