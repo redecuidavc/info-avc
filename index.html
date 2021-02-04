@@ -26,102 +26,158 @@
    <body>
     
    <div id="secao-01" class="secao">
-   
-      <div class="container" style="height: 100%;"> 
-         
-      <div class="row">
-     
-         <div class="col-sm-2" style="margin-left: 40%;">
-         <!-- <div class="col-md-3 col-xs-3" style="margin-left: 35%;"> -->
-            <div class="container">
-               <object type="image/svg+xml" data="imagens/titulo-avc.svg"></object>
-            </div>
-         </div>
 
-         <div class="col-sm-2" style="padding-left: 33%; margin-top: 1%;">
-         <!-- <div class="col-md-1 col-xs-1" style="margin-left: 25%; margin-top: 1%;"> -->
-               <button type="button" id="mymodal" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                  Sobre
-               </button>
+      <div class="container" style="height: 100%; padding: 0%;"> 
+         
+         <div class="row" style="height: 100%;">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+               <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4"></div>
                
-               <!-- Modal -->
-               <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                           <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                           <a class="test-popup-link" href="http://i.imgur.com/YZ7AGyF.jpg">Open popup</a>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  <div class="col-lg-4 col-md-4 col-sm-4 align-self-center">
+                     <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-12" style="margin: auto;">
+                           <div class="container" style="margin: 0%; padding: 0%; margin-top: 5%;">
+                              <object type="image/svg+xml" data="imagens/titulo-avc.svg"></object>
+                           </div>
                         </div>
                      </div>
                   </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4" style="margin-top: 1%; text-align: right;">
+                     <button type="button" id="mymodal" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                     Sobre
+                     </button>
+               
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                     <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                           </div>
+                           <div class="modal-body">
+                              <a class="test-popup-link" href="http://i.imgur.com/YZ7AGyF.jpg">Open popup</a>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 align-self-center">
+
+<div class="col-md-10 col-xs-10 align-self-center texto" style="text-align: center; color: #FFFFFF; font-size: 220%; padding: 0%; margin: auto;">
+               <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 150%; padding: 0%;">
+                     Se tiver algum desses sintomas, busque ajuda rápido!
+               </div>
+</div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+               <div class="container">
+            <div class="row text-center" >
+        
+               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+                  <div style="text-align: center;">
+
+                     <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
+                        Dificuldade na visão
+                     </div>
+
+                     <object id="olho-parado"  type="image/svg+xml" data="imagens/olho-parado.svg"></object>
+                     <object id="olho-animado" type="image/svg+xml" data="imagens/olho-animado.svg" hidden></object>
+
+                     <button id="olho-play" onclick="play('olho')" style="width: 20%; height: 20%; background-color: #05052D; border: none;">
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <path d="M10.61,10.74V22.57s0,1.15,1.44.58,10.1-5.78,10.1-5.78.87-.57,0-1.44S11.76,9.87,11.76,9.87,10.61,9.58,10.61,10.74Z" fill="#15132a"/>
+                        </svg>   
+                     </button>
+                  
+                     <button id="olho-stop" onclick="stop('olho')" style="width: 20%; height: 20%; background-color: #05052D; border: none;" hidden>
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <g>
+                              <line x1="14.12" y1="11.14" x2="14.12" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                              <line x1="19.03" y1="11.14" x2="19.03" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                           </g>
+                        </svg>
+                     </button>
+
+                  </div>
+               </div>
+
+               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+                  <div style="text-align: center;">
+                     <object id="boca-parado"  type="image/svg+xml" data="imagens/boca-parado.svg"></object>
+                     <object id="boca-animado" type="image/svg+xml" data="imagens/boca-animado.svg" hidden></object>
+                     
+                     <!--
+                     <button id="boca-play" onclick="play('boca')">Play</button>
+                     <button id="boca-stop" onclick="stop('boca')" hidden>Stop</button>
+                     -->
+
+                     <button id="boca-play" onclick="play('boca')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
+                        Dificuldade ao falar      
+                     </button>
+
+                     <button id="boca-stop" onclick="stop('boca')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
+                        Dificuldade ao falar      
+                     </button>
+                  </div>
+               </div>
+
+               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+                  <div style="text-align: center;">
+                     <object id="braco-parado"  type="image/svg+xml" data="imagens/braco-parado.svg"></object>
+                     <object id="braco-animado" type="image/svg+xml" data="imagens/braco-animado.svg" hidden></object>
+
+                     <!--
+                     <button id="braco-play" onclick="play('braco')">Play</button>
+                     <button id="braco-stop" onclick="stop('braco')" hidden>Stop</button>
+                     -->
+
+                     <button id="braco-play" onclick="play('braco')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
+                        Braço sem força
+                     </button>
+
+                     <button id="braco-stop" onclick="stop('braco')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
+                        Braço sem força     
+                     </button>
+                  </div>
+               </div>
+
+               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+                  <div style="text-align: center;">
+                     <object id="perna-parado"  type="image/svg+xml" data="imagens/perna-parado.svg"></object>
+                     <object id="perna-animado" type="image/svg+xml" data="imagens/perna-animado.svg" hidden></object>
+               
+                     <!--
+                     <button id="perna-play" onclick="play('perna')">Play</button>
+                     <button id="perna-stop" onclick="stop('perna')" hidden>Stop</button>
+                     -->
+
+                     <button id="perna-play" onclick="play('perna')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
+                        Perna sem força
+                     </button>
+
+                     <button id="perna-stop" onclick="stop('perna')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
+                        Perna sem força     
+                     </button>
+                  </div>
+               </div>
+</div>
+            </div>
+            </div>
          </div>
-      </div>
-
-      <br>
-
-      <div class="row">
-         <div class="col-md-10 col-xs-10 texto" 
-                 style="text-align: center; color: #FFFFFF; font-size: 250%; margin-left: 8%;">
-            Se tiver algum desses sintomas, busque ajuda rápido!
-         </div>
-      </div>
-      
-      <br>
-
-      <div class="container"> 
-         <div class="row" style="border: 3px; border-color: #FFFFFF;">
-
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div style="text-align: center;">
-                  <object id="olho-parado"  type="image/svg+xml" data="imagens/olho-parado.svg"></object>
-                  <object id="olho-animado" type="image/svg+xml" data="imagens/olho-animado.svg" hidden></object>
-               
-                  <button id="olho-play" onclick="play('olho')">Play</button>
-                  <button id="olho-stop" onclick="stop('olho')" hidden>Stop</button>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div style="text-align: center;">
-                  <object id="boca-parado"  type="image/svg+xml" data="imagens/boca-parado.svg"></object>
-                  <object id="boca-animado" type="image/svg+xml" data="imagens/boca-animado.svg" hidden></object>
-               
-                  <button id="boca-play" onclick="play('boca')">Play</button>
-                  <button id="boca-stop" onclick="stop('boca')" hidden>Stop</button>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div style="text-align: center;">
-                  <object id="perna-parado"  type="image/svg+xml" data="imagens/perna-parado.svg"></object>
-                  <object id="perna-animado" type="image/svg+xml" data="imagens/perna-animado.svg" hidden></object>
-               
-                  <button id="perna-play" onclick="play('perna')">Play</button>
-                  <button id="perna-stop" onclick="stop('perna')" hidden>Stop</button>
-               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div style="text-align: center;">
-                  <object id="braco-parado"  type="image/svg+xml" data="imagens/braco-parado.svg"></object>
-                  <object id="braco-animado" type="image/svg+xml" data="imagens/braco-animado.svg" hidden></object>
-               
-                  <button id="braco-play" onclick="play('braco')">Play</button>
-                  <button id="braco-stop" onclick="stop('braco')" hidden>Stop</button>
-               </div>
-            </div>
-
-         </div>
-      </div>
-      </div>
-
+</div>
       <span class="icone-scroll">
         <span class="scroll-next scroll"></span>
       </span>
@@ -134,7 +190,7 @@
          <div class="col-md-10 col-xs-10 texto" 
                  style="text-align: right; color: #000000; font-size: 250%; margin-left: 20%; margin-top: 2%;">
                <div class="container">
-                  Maiores chances de recuperação nas primeiras quatros horas dos sinais.
+                   Maiores chances de recuperação nas primeiras quatros horas dos sinais.
                </div>
             
           </div>
@@ -172,8 +228,8 @@
 
     <div id="secao-03" class="secao">
 
-      <div class="container"> 
-         <div class="row" style="border: 3px; border-color: #FFFFFF;">
+      <div class="container" style="height: 100%;"> 
+         <div class="row" style="height: 100%; align-items: center;">
 
             <div class="col-lg-8 col-md-8 col-sm-8">
 
@@ -208,7 +264,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4">
-               <div style="text-align: center;">
+               <div>
                   <object type="image/svg+xml" data="imagens/hospital.svg"></object>
                </div>
             </div>
@@ -254,14 +310,14 @@
         <span class="scroll-top scroll"></span>
       </span>
     </div>
-
+<!--
     <div id="secao-04" class="secao">
       <span class="icone-scroll">
         <span class="scroll-top scroll"></span>
         <span class="scroll-top scroll"></span>
       </span>
     </div>
-
+   -->
   </body>
 
   <script src="scripts/jquery-3.1.1.min.js"></script>
@@ -310,6 +366,12 @@
          $("#" + parte + "-parado").show();
          $("#" + parte + "-animado").hide();
       }
+
+      window.onload = function() {
+         document.getElementById('boca-stop').style.display = 'none';
+         document.getElementById('braco-stop').style.display = 'none';
+         document.getElementById('perna-stop').style.display = 'none';
+      };
 
    </script>
 
