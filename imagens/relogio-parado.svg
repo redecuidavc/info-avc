@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 878.04 878.04">
+  <g id="b2ef48b3-ca99-4f57-b500-9c7f0247923b" data-name="Camada 2">
+    <g id="b2ce687b-95e1-4d92-a7f4-701fb212faf0" data-name="relogio_1">
+      <g>
+        <circle cx="439.02" cy="439.02" r="438.52" fill="#fff" stroke="#000" stroke-miterlimit="10"/>
+        <path d="M457.6,380.84V203.16c0-11.5-17.85-11.51-17.85,0V320.3c0,11.49,17.85,11.51,17.85,0V203.16H439.75V380.84c0,11.49,17.85,11.51,17.85,0Z" fill="#0c0c1f"/>
+        <path d="M439.75,145.15v293.7c0,11.5,17.85,11.51,17.85,0V145.15c0-11.5-17.85-11.52-17.85,0Z" fill="#0c0c1f"/>
+        <g>
+          <text transform="translate(420.91 102.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">12</text>
+          <text transform="translate(216.43 151.21)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">11</text>
+          <text transform="translate(70.21 285.34)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">10</text>
+          <text transform="translate(30.62 464.34)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">9</text>
+          <text transform="translate(79.69 644.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">8</text>
+          <text transform="translate(220.25 777.31)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">7</text>
+          <text transform="translate(424.96 826.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">6</text>
+          <text transform="translate(625.17 777.31)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">5</text>
+          <text transform="translate(758.51 643.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">4</text>
+          <text transform="translate(808.59 464.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">3</text>
+          <text transform="translate(757.76 285.35)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">2</text>
+          <text transform="translate(632 151.38)" font-size="83.3" fill="#0c0c1f" font-family="Circula-Medium, Circula" font-weight="500">1</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

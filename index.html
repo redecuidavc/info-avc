@@ -46,43 +46,71 @@
                   </div>
 
                   <div class="col-lg-4 col-md-4 col-sm-4" style="margin-top: 1%; text-align: right;">
-                     <button type="button" id="mymodal" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                     <button type="button" id="mymodal" class="btn btn-primary btn-lg texto" data-toggle="modal" data-target="#myModal"
+                     style="box-shadow: 0 0 0.75em white;">
                      Sobre
                      </button>
                
                      <!-- Modal -->
                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                     <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                           </div>
-                           <div class="modal-body">
-                              <a class="test-popup-link" href="http://i.imgur.com/YZ7AGyF.jpg">Open popup</a>
-                           </div>
-                           <div class="modal-footer">
-                              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+
+                              <div class="modal-header">
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                 <h4 class="modal-title texto" id="myModalLabel" style="text-align: left;">Sobre o infográfico</h4>
+                              </div>
+                              
+                              <!-- <div class="modal-body" style="text-align: center;"> -->
+                              <div>
+                                 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="container">
+                                       <div class="row text-center" style="align-self: center;">
+                                          <!-- <a class="test-popup-link" href="http://i.imgur.com/YZ7AGyF.jpg">Open popup</a> -->
+                                          <div class="col-lg-4 col-md-4 col-sm-4">
+                                             <object id="logo-rede-cuidavc" type="image/svg+xml" data="imagens/logo-rede-cuidavc.svg"></object>
+                                          </div>
+                                          <div class="col-lg-4 col-md-4 col-sm-4">
+                                             <object id="logo-ppgfisio"     type="image/svg+xml" data="imagens/logo-ppgfisio.svg"></object>
+                                          </div>
+                                          <div class="col-lg-4 col-md-4 col-sm-4">
+                                             <object id="logo-nox"          type="image/svg+xml" data="imagens/logo-nox.svg"></object>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="container">
+                                       <div class="row texto" style="align-self: center;">
+                                          Visite o nosso Instagram &nbsp; 
+                                          <a target="_blank" class="test-popup-link" href="https://www.instagram.com/p/CLU-C-6ncqD/?igshid=z30su9bksep5">@redecuidavc</a>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-primary texto" data-dismiss="modal">Fechar</button>
+                              </div>
+
                            </div>
                         </div>
-                     </div>
                      </div>
                   </div>
                </div>
             </div>
 
             <div class="col-lg-12 col-md-12 col-sm-12 align-self-center">
-
-<div class="col-md-10 col-xs-10 align-self-center texto" style="text-align: center; color: #FFFFFF; font-size: 220%; padding: 0%; margin: auto;">
-               <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 150%; padding: 0%;">
-                     Se tiver algum desses sintomas, busque ajuda rápido!
+               <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 300%; padding: 0%; margin: auto;">
+                  Se tiver algum desses sintomas, busque ajuda rápido!
                </div>
-</div>
             </div>
 
             <div class="col-lg-12 col-md-12 col-sm-12">
                <div class="container">
-            <div class="row text-center" >
+               <div class="row text-center" >
         
                <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
@@ -95,7 +123,7 @@
                      <object id="olho-animado" type="image/svg+xml" data="imagens/olho-animado.svg" hidden></object>
 
                      <button id="olho-play" onclick="play('olho')" style="width: 20%; height: 20%; background-color: #05052D; border: none;">
-                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                        <svg width="100%" height="100%" viewBox="0 0 33.15 33.15" aria-hidden="true" tabindex="0" fill="none" style="border-radius:50%; box-shadow: 0 0 1em white;">
                            <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
                            <path d="M10.61,10.74V22.57s0,1.15,1.44.58,10.1-5.78,10.1-5.78.87-.57,0-1.44S11.76,9.87,11.76,9.87,10.61,9.58,10.61,10.74Z" fill="#15132a"/>
                         </svg>   
@@ -116,69 +144,102 @@
 
                <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
+
+                     <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
+                        Dificuldade ao falar
+                     </div>
+
                      <object id="boca-parado"  type="image/svg+xml" data="imagens/boca-parado.svg"></object>
                      <object id="boca-animado" type="image/svg+xml" data="imagens/boca-animado.svg" hidden></object>
                      
-                     <!--
-                     <button id="boca-play" onclick="play('boca')">Play</button>
-                     <button id="boca-stop" onclick="stop('boca')" hidden>Stop</button>
-                     -->
-
-                     <button id="boca-play" onclick="play('boca')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
-                        Dificuldade ao falar      
+                     <button id="boca-play" onclick="play('boca')" style="width: 20%; height: 20%; background-color: #05052D; border: none;">
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none" style="border-radius:50%; box-shadow: 0 0 1em white;">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <path d="M10.61,10.74V22.57s0,1.15,1.44.58,10.1-5.78,10.1-5.78.87-.57,0-1.44S11.76,9.87,11.76,9.87,10.61,9.58,10.61,10.74Z" fill="#15132a"/>
+                        </svg>   
+                     </button>
+                  
+                     <button id="boca-stop" onclick="stop('boca')" style="width: 20%; height: 20%; background-color: #05052D; border: none;" hidden>
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <g>
+                              <line x1="14.12" y1="11.14" x2="14.12" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                              <line x1="19.03" y1="11.14" x2="19.03" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                           </g>
+                        </svg>
                      </button>
 
-                     <button id="boca-stop" onclick="stop('boca')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
-                        Dificuldade ao falar      
-                     </button>
                   </div>
                </div>
 
                <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
+
+                     <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
+                        Braço sem força
+                     </div>
+
                      <object id="braco-parado"  type="image/svg+xml" data="imagens/braco-parado.svg"></object>
                      <object id="braco-animado" type="image/svg+xml" data="imagens/braco-animado.svg" hidden></object>
 
-                     <!--
-                     <button id="braco-play" onclick="play('braco')">Play</button>
-                     <button id="braco-stop" onclick="stop('braco')" hidden>Stop</button>
-                     -->
-
-                     <button id="braco-play" onclick="play('braco')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
-                        Braço sem força
+                     <button id="braco-play" onclick="play('braco')" style="width: 20%; height: 20%; background-color: #05052D; border: none;">
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none" style="border-radius:50%; box-shadow: 0 0 1em white;">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <path d="M10.61,10.74V22.57s0,1.15,1.44.58,10.1-5.78,10.1-5.78.87-.57,0-1.44S11.76,9.87,11.76,9.87,10.61,9.58,10.61,10.74Z" fill="#15132a"/>
+                        </svg>   
+                     </button>
+                  
+                     <button id="braco-stop" onclick="stop('braco')" style="width: 20%; height: 20%; background-color: #05052D; border: none;" hidden>
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <g>
+                              <line x1="14.12" y1="11.14" x2="14.12" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                              <line x1="19.03" y1="11.14" x2="19.03" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                           </g>
+                        </svg>
                      </button>
 
-                     <button id="braco-stop" onclick="stop('braco')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
-                        Braço sem força     
-                     </button>
                   </div>
                </div>
 
                <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
+
+                     <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
+                        Perna sem força
+                     </div>
+
                      <object id="perna-parado"  type="image/svg+xml" data="imagens/perna-parado.svg"></object>
                      <object id="perna-animado" type="image/svg+xml" data="imagens/perna-animado.svg" hidden></object>
                
-                     <!--
-                     <button id="perna-play" onclick="play('perna')">Play</button>
-                     <button id="perna-stop" onclick="stop('perna')" hidden>Stop</button>
-                     -->
-
-                     <button id="perna-play" onclick="play('perna')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em white; margin-top: 5%;">
-                        Perna sem força
+                     <button id="perna-play" onclick="play('perna')" style="width: 20%; height: 20%; background-color: #05052D; border: none;">
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none" style="border-radius:50%; box-shadow: 0 0 1em white;">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <path d="M10.61,10.74V22.57s0,1.15,1.44.58,10.1-5.78,10.1-5.78.87-.57,0-1.44S11.76,9.87,11.76,9.87,10.61,9.58,10.61,10.74Z" fill="#15132a"/>
+                        </svg>   
+                     </button>
+                  
+                     <button id="perna-stop" onclick="stop('perna')" style="width: 20%; height: 20%; background-color: #05052D; border: none;" hidden>
+                        <svg width="100%" height="100%" viewBox="0 0 33.14 33.14" aria-hidden="true" tabindex="0" fill="none">
+                           <circle cx="16.57" cy="16.57" r="16.57" fill="#e9b00a"/>
+                           <g>
+                              <line x1="14.12" y1="11.14" x2="14.12" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                              <line x1="19.03" y1="11.14" x2="19.03" y2="22.01" fill="#15132a" stroke="#151429" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+                           </g>
+                        </svg>
                      </button>
 
-                     <button id="perna-stop" onclick="stop('perna')" type="button" class="btn btn-primary btn-lg" style="box-shadow: 0 0 1em black; margin-top: 5%;" hidden>
-                        Perna sem força     
-                     </button>
                   </div>
                </div>
-</div>
-            </div>
+
+               </div>
+               </div>
             </div>
          </div>
-</div>
-      <span class="icone-scroll">
+
+      </div>
+
+      <span class="icone-scroll" onclick="playObjeto('relogio'); playObjeto('ambulancia');" style="border-radius:50%; box-shadow: 0 0 1em white;">
         <span class="scroll-next scroll"></span>
       </span>
 
@@ -190,7 +251,7 @@
          <div class="col-md-10 col-xs-10 texto" 
                  style="text-align: right; color: #000000; font-size: 250%; margin-left: 20%; margin-top: 2%;">
                <div class="container">
-                   Maiores chances de recuperação nas primeiras quatros horas dos sinais.
+                   Maiores chances de recuperação nas primeiras <span style="color: red; font-size: 180%;">4 horas </span> dos sinais.
                </div>
             
           </div>
@@ -198,15 +259,17 @@
 
       <div class="row">
 
-         <div class="col-md-2 col-xs-2" style="transform: scale(1.2); margin-left: 0.75%;">
+         <div class="col-md-4 col-xs-2" style="margin-left: 0.75%;">
             <div class="container">
-               <object type="image/svg+xml" data="imagens/relogio.svg"></object>
+               <object id="relogio-parado"  type="image/svg+xml" data="imagens/relogio-parado.svg"></object>
+               <object id="relogio-animado" type="image/svg+xml" data="imagens/relogio-animado.svg" hidden></object>
             </div>
           </div>
 
-         <div class="col-md-3 col-xs-3" style="margin-left: 50%;">
+         <div class="col-md-4 col-xs-2" style="margin-left: 25%; padding-top: 10%;">
             <div class="container">
-               <object type="image/svg+xml" data="imagens/ambulancia.svg" style="transform: rotate(310deg);"></object>
+               <object id="ambulancia-parado"  type="image/svg+xml" data="imagens/ambulancia-parado.svg"></object>
+               <object id="ambulancia-animado" type="image/svg+xml" data="imagens/ambulancia-animado.svg" hidden></object>
             </div>
          </div>
 
@@ -214,14 +277,14 @@
 
       <div class="row" style="width: 75%;">
          <div class="col-md-5 col-xs-5 texto" 
-                 style="text-align: left; color: #000000; font-size: 200%; margin-left: 20%; margin-top: -5%;">
+                 style="text-align: left; color: #000000; font-size: 200%; margin-left: 40%; margin-top: -10%;">
             <div class="container">
                 Perder <b style="color: red;">TEMPO</b> é <br> perder <b style="color: red;">CÉREBRO</b>.
             </div>
          </div>
       </div>
 
-      <span class="icone-scroll">
+      <span class="icone-scroll" onclick="stopObjeto('relogio'); stopObjeto('ambulancia');" style="border-radius:50%; box-shadow: 0 0 1em black;">
         <span class="scroll-next scroll"></span>
       </span>
     </div>
@@ -305,7 +368,7 @@
       </div>
 -->      
 
-      <span class="icone-scroll">
+      <span class="icone-scroll" style="border-radius:50%; box-shadow: 0 0 1em white;">
         <span class="scroll-top scroll"></span>
         <span class="scroll-top scroll"></span>
       </span>
@@ -372,6 +435,17 @@
          document.getElementById('braco-stop').style.display = 'none';
          document.getElementById('perna-stop').style.display = 'none';
       };
+
+
+      function playObjeto(objeto) {
+         $("#" + objeto + "-parado").hide();
+         $("#" + objeto + "-animado").show();
+      }
+
+      function stopObjeto(objeto) {    
+         $("#" + objeto + "-parado").show();
+         $("#" + objeto + "-animado").hide();
+      }
 
    </script>
 
