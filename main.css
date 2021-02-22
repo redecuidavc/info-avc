@@ -121,7 +121,7 @@ body {
 }
 
 .col-xs-offset-3, .col-xs-offset-4 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 @media (min-width: 992px) {
