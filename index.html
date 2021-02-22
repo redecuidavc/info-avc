@@ -112,7 +112,7 @@
                <div class="container">
                <div class="row text-center" >
         
-               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+               <div class="col-lg-3 col-md-6 col-sm-5 col-sm-offset-1 col-md-offset-0"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
 
                      <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
@@ -172,7 +172,7 @@
                   </div>
                </div>
 
-               <div class="col-lg-3 col-md-6 col-sm-5"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
+               <div class="col-lg-3 col-md-6 col-sm-5 col-sm-offset-1 col-md-offset-0"> <!--  antes era col-lg-3 col-md-3 col-sm-6 -->
                   <div style="text-align: center;">
 
                      <div class="texto" style="text-align: center; color: #FFFFFF; font-size: 200%;">
@@ -239,7 +239,7 @@
 
       </div>
 
-      <span class="icone-scroll" onclick="playObjeto('relogio'); playObjeto('ambulancia');" style="border-radius:50%; box-shadow: 0 0 1em white;">
+      <span class="icone-scroll" style="border-radius:50%; box-shadow: 0 0 1em white;" onclick="playObjeto('relogio'); playObjeto('ambulancia');">
         <span class="scroll-next scroll"></span>
       </span>
 
@@ -248,40 +248,37 @@
     <div id="secao-02" class="secao">
 
       <div class="row" style="width: 75%;">
-         <div class="col-md-10 col-xs-10 texto" 
+         <div class="col-md-12 col-xs-12 col-md-offset-2 col-xs-offset-3 texto" 
                  style="text-align: right; color: #000000; font-size: 250%; margin-left: 20%; margin-top: 2%;">
                <div class="container">
-                   Maiores chances de recuperação nas primeiras <span style="color: red; font-size: 180%;">4 horas </span> dos sinais.
+                   Maiores chances de recuperação nas primeiras <br> <span style="color: red; font-size: 180%;">4 horas </span> dos sinais.
                </div>
-            
           </div>
       </div>
 
       <div class="row">
 
-         <div class="col-md-4 col-xs-2" style="margin-left: 0.75%;">
-            <div class="container">
+         <div class="col-md-4 col-xs-6 col-md-offset-0 col-xs-offset-3">
+            <div>
                <object id="relogio-parado"  type="image/svg+xml" data="imagens/relogio-parado.svg"></object>
                <object id="relogio-animado" type="image/svg+xml" data="imagens/relogio-animado.svg" hidden></object>
             </div>
           </div>
 
-         <div class="col-md-4 col-xs-2" style="margin-left: 25%; padding-top: 10%;">
-            <div class="container">
+         <div class="col-md-4 col-xs-6 col-md-offset-0 col-xs-offset-4 texto" 
+                 style="text-align: left; color: #000000; font-size: 200%; align-self: flex-end;">
+            <div>
+                Perder <b style="color: red;">TEMPO</b> é <br> perder <b style="color: red;">CÉREBRO</b>.
+            </div>
+         </div>
+
+         <div class="col-md-4 col-xs-6 col-md-offset-0 col-xs-offset-3" style="padding-top: 10%;">
+            <div>
                <object id="ambulancia-parado"  type="image/svg+xml" data="imagens/ambulancia-parado.svg"></object>
                <object id="ambulancia-animado" type="image/svg+xml" data="imagens/ambulancia-animado.svg" hidden></object>
             </div>
          </div>
 
-      </div>
-
-      <div class="row" style="width: 75%;">
-         <div class="col-md-5 col-xs-5 texto" 
-                 style="text-align: left; color: #000000; font-size: 200%; margin-left: 40%; margin-top: -10%;">
-            <div class="container">
-                Perder <b style="color: red;">TEMPO</b> é <br> perder <b style="color: red;">CÉREBRO</b>.
-            </div>
-         </div>
       </div>
 
       <span class="icone-scroll" onclick="stopObjeto('relogio'); stopObjeto('ambulancia');" style="border-radius:50%; box-shadow: 0 0 1em black;">
@@ -380,7 +377,7 @@
         <span class="scroll-top scroll"></span>
       </span>
     </div>
-   -->
+-->
   </body>
 
   <script src="scripts/jquery-3.1.1.min.js"></script>
