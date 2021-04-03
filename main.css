@@ -51,6 +51,7 @@ body {
 .scroll-next {
   transform: rotate(45deg);
   margin: 14px 0 0 16.5px;
+  
 }
 
 .scroll-top {
@@ -97,31 +98,6 @@ body {
   .divTableCell {
     width: 50%;
   }
-}
-
-
-@media (min-width: 768px) and (max-width: 979px) {
-    #seta-1 {
-      transform: rotate(90deg);
-    }
-    #seta-2 {
-      transform: rotate(90deg);
-    }
-    #seta-3 {
-      transform: rotate(90deg);
-    }
-    #seta-4 {
-      transform: rotate(90deg);
-    }
-    .col-sm-12 {
-      width: 50%;
-    }
-    #container-secao03 {
-      text-indent: 120%;
-    }
-    #div-hospital {
-      text-indent: 180%;
-    }
 }
 
 .row {
