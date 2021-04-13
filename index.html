@@ -239,7 +239,7 @@
 
       </div>
 
-      <span class="icone-scroll" style="border-radius:50%; box-shadow: 0 0 1em white;" onclick="playObjeto('relogio'); playObjeto('ambulancia');">
+      <span class="icone-scroll" style="border-radius:50%; box-shadow: 0 0 1em white;">
         <span class="scroll-next scroll"></span>
       </span>
 
@@ -281,7 +281,7 @@
 
       </div>
 
-      <span class="icone-scroll" onclick="stopObjeto('relogio'); stopObjeto('ambulancia');" style="border-radius:50%; box-shadow: 0 0 1em black;">
+      <span class="icone-scroll" style="border-radius:50%; box-shadow: 0 0 1em black;">
         <span class="scroll-next scroll"></span>
       </span>
     </div>
@@ -431,6 +431,9 @@
          document.getElementById('boca-stop').style.display = 'none';
          document.getElementById('braco-stop').style.display = 'none';
          document.getElementById('perna-stop').style.display = 'none';
+
+         playObjeto('relogio'); 
+         playObjeto('ambulancia');
       };
 
 
