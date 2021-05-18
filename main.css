@@ -145,13 +145,13 @@ Testes de responvidade
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
     transform: rotate(0deg) scale(1.2);
-    margin-top: -80%;
+    margin-top: -82%;
   }
 
   #seta-1-vertical {
     visibility: visible;
     transform: scale(0.55);
-    margin-bottom: 8%;
+    margin-bottom: 6%;
   }
 
   #seta-1-horizontal {
@@ -201,9 +201,9 @@ Testes de responvidade
   }
 
   #div-hospital {
-    transform: scale(0.6);
-    margin-top: -120%;
-    text-indent: 22%;
+    transform: scale(0.4);
+    margin-top: -150%;
+    text-indent: 32%;
   }
 
   #container-setas {
