@@ -139,19 +139,20 @@ Testes de responvidade
 @media (min-width: 425px) {
 
   #div-seta-1 {
-    transform: rotate(0deg) scale(1.2);
+    transform: rotate(0deg);
     margin-top: 0%;
   }
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
-    transform: rotate(0deg) scale(1.2);
-    margin-top: -82%;
+    transform: rotate(0deg);
+    margin-top: -75%;
   }
 
   #seta-1-vertical {
     visibility: visible;
     transform: scale(0.55);
-    margin-bottom: 6%;
+    margin-top: -5%;
+    margin-bottom: 2%;
   }
 
   #seta-1-horizontal {
@@ -164,7 +165,7 @@ Testes de responvidade
   #seta-2-vertical {
     visibility: visible;
     transform: scale(0.55);
-    margin-top: -60%;
+    margin-top: -75%;
   }
 
   #seta-2-horizontal {
@@ -177,7 +178,7 @@ Testes de responvidade
   #seta-3-vertical {
     visibility: visible;
     transform: scale(0.55);
-    margin-top: -60%;
+    margin-top: -75%;
   }
 
   #seta-3-horizontal {
@@ -190,7 +191,7 @@ Testes de responvidade
   #seta-4-vertical {
     visibility: visible;
     transform: scale(0.55);
-    margin-top: -60%;
+    margin-top: -75%;
   }
 
   #seta-4-horizontal {
@@ -202,7 +203,7 @@ Testes de responvidade
 
   #div-hospital {
     transform: scale(0.4);
-    margin-top: -150%;
+    margin-top: -130%;
     text-indent: 32%;
   }
 
