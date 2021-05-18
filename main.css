@@ -138,19 +138,19 @@ Testes de responvidade
 
 @media (min-width: 425px) {
   #div-seta-1 {
-    transform: rotate(90deg) scale(0.32);
-    margin-top: -38%;
+    transform: rotate(90deg) scale(0.6);
+    margin-top: -25%;
   }
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
-    transform: rotate(90deg) scale(0.32);
-    margin-top: -78%;
+    transform: rotate(90deg) scale(0.6);
+    margin-top: -55%;
   }
 
   #div-hospital {
-    transform: scale(0.35);
-    margin-top: -44%;
-    text-indent: 38%;
+    transform: scale(0.5);
+    margin-top: -28%;
+    text-indent: 28%;
   }
 
   #container-setas {
