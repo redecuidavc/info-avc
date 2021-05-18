@@ -137,20 +137,73 @@ Testes de responvidade
 */
 
 @media (min-width: 425px) {
+
   #div-seta-1 {
-    transform: rotate(90deg) scale(0.55);
-    margin-top: -30%;
+    transform: rotate(0deg) scale(1.2);
+    margin-top: 0%;
   }
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
-    transform: rotate(90deg) scale(0.55);
+    transform: rotate(0deg) scale(1.2);
+    margin-top: -80%;
+  }
+
+  #seta-1-vertical {
+    visibility: visible;
+    transform: scale(0.55);
+    margin-bottom: 8%;
+  }
+
+  #seta-1-horizontal {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-2-vertical {
+    visibility: visible;
+    transform: scale(0.55);
     margin-top: -60%;
   }
 
+  #seta-2-horizontal {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-3-vertical {
+    visibility: visible;
+    transform: scale(0.55);
+    margin-top: -60%;
+  }
+
+  #seta-3-horizontal {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-4-vertical {
+    visibility: visible;
+    transform: scale(0.55);
+    margin-top: -60%;
+  }
+
+  #seta-4-horizontal {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
   #div-hospital {
-    transform: scale(0.35);
-    margin-top: -37%;
-    text-indent: 38%;
+    transform: scale(0.6);
+    margin-top: -120%;
+    text-indent: 22%;
   }
 
   #container-setas {
@@ -159,14 +212,67 @@ Testes de responvidade
 }
 
 @media (min-width: 992px) {
+
   #div-seta-1 {
-    transform: rotate(0deg) scale(1.2);
+    transform: rotate(0deg);
     margin-top: 0%;
   }
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
-    transform: rotate(0deg) scale(1.2);
+    transform: rotate(0deg);
     margin-top: 0%;
+  }
+
+  #seta-1-vertical {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-1-horizontal {
+    visibility: visible;
+    transform: scale(1.2);
+    margin-top: -80%;
+  }
+
+  #seta-2-vertical {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-2-horizontal {
+    visibility: visible;
+    transform: scale(1.2);
+    margin-top: -80%;
+  }
+
+  #seta-3-vertical {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-3-horizontal {
+    visibility: visible;
+    transform: scale(1.2);
+    margin-top: -80%;
+  }
+
+  #seta-4-vertical {
+    visibility: hidden;
+    transform: scale(0);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #seta-4-horizontal {
+    visibility: visible;
+    transform: scale(1.2);
+    margin-top: -80%;
   }
 
   #div-hospital {
