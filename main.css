@@ -140,19 +140,19 @@ Testes de responvidade
 
   #div-seta-1 {
     transform: rotate(0deg);
-    margin-top: 0%;
+    margin-top: -15%;
   }
 
   #div-seta-2, #div-seta-3, #div-seta-4 {
     transform: rotate(0deg);
-    margin-top: -75%;
+    margin-top: -80%;
   }
 
   #seta-1-vertical {
     visibility: visible;
     transform: scale(0.55);
     margin-top: -5%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
   }
 
   #seta-1-horizontal {
