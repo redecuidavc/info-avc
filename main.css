@@ -285,4 +285,19 @@ Testes de responvidade
   #container-setas {
     margin-left: 0%;
   }
+
+  #div-relogio {
+    transform: scale(0.75);
+    margin-top: -20%;
+  }
+
+  #div-ambulancia {
+    transform: scale(0.75);
+    margin-top: -20%;    
+  }
+
+  #div-frase-impacto {
+    margin-top: -20%;    
+  }
+
 }
